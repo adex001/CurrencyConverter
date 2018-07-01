@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background: lightblue;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+.header h1{
+    text-align: center;
+    padding: 10px 0; 
+}
+
+.workArea{
+    background-color: darkblue;
+    color: white;
+    height: 200px;
+}
+.workArea form{
+    margin: 20px 0 0 0;
+}
+.workArea form input[type='text']{
+    padding: 10px 5px;
+    width: 20%;
+    border-radius: 5px;
+    /* height: 40px; */
+}
+select{
+    width: 10%;
+    background: lightblue;
+    padding: 5px;
+}
+#submit{
+    width: 15%;
+}
+#result{
+    width: 30%;
+    padding: 10px;
+    margin: 50px 20%;
+    position: absolute;
+    top: 150px;
+}
